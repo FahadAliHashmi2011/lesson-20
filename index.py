@@ -89,3 +89,26 @@ print("Number of occurences of the number 3 in the said array:"+str(array_num.co
 array_num.reverse()
 print("Reverse the order of the items:")
 print(str(array_num))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#=======================================
+x = frozenset([1, 2, 3, 4, 5])
+y = frozenset([3, 4, 5, 6, 7])
+
+print(x.isdisjoint(y))
+
+print(x.difference(y))
+
+print(x | y)
