@@ -21,3 +21,42 @@ print(num_set)
 num_set.pop()
 print("After removing the first element from the said set:")
 print(num_set,"\n")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#============================================================================================================================
+setx = {"green", "blue"}
+sety = {"blue", "yellow"}
+print("Original set elements:")
+print(setx)
+print(sety)
+print("\nIntersection of two said sets:")
+setz = setx.intersection(sety)
+print(setz)
